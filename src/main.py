@@ -229,4 +229,5 @@ while (running):
         running = False
     else:
         print("Pilihan tidak tersedia")
+        print("")
     # { EOP: running = False }
