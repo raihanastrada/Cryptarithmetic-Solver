@@ -1,8 +1,10 @@
 def get_files(filename):
     # Mengembalikan list berisi kata-kata yang berada dalam file
     list_of_words = []
+    cur_path = os.path.dirname(__file__)
+    fpath = os.path.join(cur_path, '..\\test\\'+filename)
     try:
-        f = open(filename,"r")
+        f = open(fpath, "r")
         EOF = False
         while (not EOF):
             word = ""
@@ -197,6 +199,7 @@ def menu():
 
 # Modul yang digunakan
 import time
+import os
 
 running = True
 while (running):
