@@ -13,6 +13,7 @@ dimana angka diganti dengan huruf. Setiap angka akan dipresentasikan dengan huru
 2. Buka terminal / IDE yang akan digunakan
 3. Masuk ke folder src
 4. Jalankan program "main.py"
+5. Ikuti perintah program
 
 ## Dibuat oleh
 * Raihan Astrada Fathurrahman (13519113)
